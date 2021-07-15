@@ -110,9 +110,10 @@
 
 /*  ------  my previous styling for POKEMON LIST --- */
 
-.pokemon-list {
+.list-group {
     list-style: none;
     display: flex;
+    flex-direction: inherit;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 750px;
@@ -124,7 +125,7 @@
     margin: auto;
 }
 
-.pokemon-list > li {
+.list-group > li {
     padding: 10px;
 }
 
